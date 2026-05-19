@@ -38,7 +38,8 @@ s=socket.socket()
 s.connect(('localhost',8000)) 
 while True: 
     print(s.recv(1024).decode()) 
-    s.send("Acknowledgement Recived".encode())```
+    s.send("Acknowledgement Recived".encode())
+```
 ## OUTPUT
 <img width="1104" height="958" alt="Screenshot 2026-05-19 144922" src="https://github.com/user-attachments/assets/13078681-09ab-4857-bf8f-009433ca6010" />
 <img width="1110" height="966" alt="Screenshot 2026-05-19 144932" src="https://github.com/user-attachments/assets/e71d7bcb-f9ee-4c8f-a3af-7af60bf69066" />
